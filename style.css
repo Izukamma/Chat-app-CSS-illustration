@@ -17,6 +17,8 @@
 
 body {
   background-color: #fafafa;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 .bg-1 {
   width: 600px;
@@ -29,6 +31,22 @@ body {
   border-bottom-left-radius: 300px;
 }
 
+/* .bg-3 {
+  width: 800px;
+  height: 800px;
+  margin-right: 50px;
+  background-color: hsl(270, 20%, 96%);
+  position: absolute;
+  top: 130px;
+  left: 1200px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  border-top-right-radius: 400px;
+  border-top-left-radius: 400px;
+  overflow: hidden;
+} */
+
 .phone {
   width: 300px;
   height: 550px;
@@ -37,7 +55,7 @@ body {
   margin-left: 550px;
   position: relative;
   border-radius: 30px;
-  box-shadow: 0px 0px 50px #7a7a7a;
+  box-shadow: 20px 20px 50px lightgray;
 }
 
 .bg-2 {
@@ -323,6 +341,7 @@ body {
 
 .para {
   margin-top: 25px;
+  width: 700px;
 }
 
 .para p {
@@ -332,4 +351,5 @@ body {
 
 .description h1 {
   color: hsl(271, 36%, 24%);
+  font-size: 35px;
 }
